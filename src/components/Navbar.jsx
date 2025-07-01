@@ -42,8 +42,8 @@ function Navbar() {
           <div className='absolute z-50 bg-gray-200 text-gray-900 list-none right-0 top-14 dark:text-gray-200 dark:bg-gray-900  py-6 w-52 h-screen flex flex-col  '>
              <NavLink to="/" className={({isActive})=> isActive
       ? "border-b-2 border-blue-500  font-medium"
-      : "text-gray-200  "}>
-             <li className='px-6 py-4 hover:bg-gray-700 hover:text-gray-200'>
+      : "bg-gray-200 text-gray-900 dark:bg-gray-900 dark:text-gray-200  "}>
+             <li className='px-6 py-4 '>
 
              
               Editor
@@ -51,8 +51,8 @@ function Navbar() {
              </li></NavLink>
  <NavLink to={"/guide"} className={({isActive})=> isActive
       ? "border-b-2 border-blue-500  font-medium"
-      : "text-gray-200  "}>
-             <li className='px-6 py-4 hover:bg-gray-700 hover:text-gray-200 '>
+      : "bg-gray-200 text-gray-900 dark:bg-gray-900 dark:text-gray-200  "}>
+             <li className='px-6 py-4  '>
              
               Markdown Guide
               
