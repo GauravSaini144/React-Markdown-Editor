@@ -59,9 +59,7 @@ You can download your written content in any of the following formats:
 git clone https://github.com/yourusername/markedit.git
 cd markedit
 
-```bash
 npm install
 
-```bash
 npm run dev
 
