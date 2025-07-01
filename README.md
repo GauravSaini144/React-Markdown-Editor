@@ -1,12 +1,67 @@
-# React + Vite
+# https://markedit-react.netlify.app/
+# ✨ MarkEdit - Markdown Editor & Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MarkEdit** is a powerful and minimalist Markdown editor built with **React** and **Tailwind CSS**, offering real-time Markdown preview, HTML preview, and file export options. It supports both **dark/light themes** and includes a built-in **Markdown syntax guide** to help users write efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📝 Live **Markdown editor**
+- 👀 Real-time **Markdown preview** with GitHub-flavored Markdown support
+- 🌐 Toggleable **HTML preview** (see raw HTML output)
+- 💾 **Download** your content as `.md`, `.html`, or `.txt` files
+- 🌗 Seamless **Dark / Light theme** 
+- 📖 **Markdown guide page** to help users understand supported syntax
+- 📱 **Responsive design** for all screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** 
+- **Tailwind CSS**
+- **react-markdown**
+- **remark-gfm** 
+- **rehype-highlight**
+- **marked**
+
+---
+
+## 📂 File Export Options
+
+You can download your written content in any of the following formats:
+
+- ✅ `.md` – Standard Markdown file
+- ✅ `.html` – Raw HTML file from your Markdown
+- ✅ `.txt` – Plain text file
+
+---
+
+## 🔦 Markdown Guide
+
+> Accessible via the “Guide” page in the app, it contains:
+
+- Headings
+- Lists
+- Code blocks
+- Tables
+- Blockquotes
+- Links & Images
+- Task lists
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/yourusername/markedit.git
+cd markedit
+
+```bash
+npm install
+
+```bash
+npm run dev
+
